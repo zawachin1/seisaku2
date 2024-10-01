@@ -1,0 +1,311 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+@import url('https://fonts.googleapis.com/css2?family=Slackside+One&family=Yuji+Hentaigana+Akebono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700&family=Slackside+One&family=Yuji+Hentaigana+Akebono&display=swap');
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: "Outai Kaisho"; 
+  height: 100%;
+  margin: 0;
+
+  
+}
+
+/* h1見出し */
+h1 {
+  font-size: 70px;/* フォントの大きさ */
+  text-align:center;
+  font-family: 'Shippori Mincho B1', serif; /* フォントの種類 */
+   color: #000;
+  -webkit-text-stroke: 2px #FFF;
+  text-stroke: 1px #FFF;
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(tinoneumai.jpg);/* 背景画像 */
+  padding-top: 1px;
+  height:700px;/* 高さ *//* 上がわの余白 */
+  backgroung-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+.shop {
+  background-color: #46211A;/* 背景の色 */
+  color:#DB9501;
+  padding: 30px;
+}
+
+/* h2見出し */
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+  color: #DB9501;
+  
+}
+
+.shop h2 {
+background-color: #ad1111;
+border-radius: 30px;
+padding: 20px;
+border-left-style: none;
+margin-bottom: 10px;
+font-size: 40px;
+  
+}
+
+/* 段落 */
+.shop p {
+  font-size: 20px;
+  background-color: #2A3132;
+  padding: 20px;
+  border-radius: 30px;
+  height: 300px;
+}
+
+/* 画像 */
+.shop img {
+  float: right;/* 画像や箱の回り込み */
+}
+
+
+/* ===== パン紹介のスタイル ===== */
+/* セクション */
+.photo {
+  padding: 10px;
+  background-image: url(mokume7.jpg);
+ background-repeat: no-repeat;
+ background-position:center;
+ background-size: cover;
+ color: #DB9501;
+}
+
+.photo h2{
+  background-color: #ad1111;
+border-radius: 30px;
+padding: 20px;
+border-left-style: none;
+margin-bottom: 10px;
+font-size: 30px;
+}
+.photo div p { /*説明文*/
+color: #DB9501;
+width: 350px;/* 横幅を指定する */
+height: 120px;
+float: left;
+}
+
+
+/* h2見出し */
+.photo h2 {
+  color: #DB9501;
+  border-color: #ffcc11;
+}
+
+
+/* h3見出し */
+.photo h3 {
+  color: #ad1111;
+}
+.photo h4{
+  font-size: 4px
+}
+
+/* 段落 */
+.photo p {
+  
+  clear: left;/* 画像や箱の回り込みをやめる */
+  height: 160px;
+ color: #ffffff;
+}
+
+.karamiso.jpg img: hover{
+transform: scale(1.2);
+
+  
+}
+
+/* 大きな箱 */
+
+
+.big {
+  background-color: #2A3132;
+  width: 380px;/* 横幅 */
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;/* 影 */
+  float: left;
+   background-repeat: no-repeat;
+ background-position:center;
+ background-size: cover;
+}
+
+
+/* 小さな箱 */
+.small {
+  float: right;
+  background-color: #2A3132;
+  width: 395px;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 10px 10px 20px #000000;
+  background-repeat: no-repeat;
+ background-position:center;
+ background-size: cover;
+}
+
+
+.karamiso{/* 箱 */
+float: right;
+background-color: #2A3132;
+  width: 380px;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 10px 10px 20px #000000;
+  background-repeat: no-repeat;
+ background-position:center;
+ background-size: cover;
+  height: 490px
+}
+.box {
+ float: left;
+}
+
+
+
+/* ===== 値段表のスタイル ===== */
+/* セクション */
+.price {
+  padding: 30px;
+  background-image: url(mokume7.jpg);
+height: 900px;
+ font-soze: 50px; 
+background-repeat: no-repeat;
+ background-position:center;
+ background-size: cover;
+  
+}
+
+/* h2見出し */
+.price h2 {
+  color: #DB9501;
+  border-color: #ffcc11;
+  font-size: 30px;
+  background-color: #ad1111;
+border-radius: 30px;
+padding: 20px;
+border-left-style: none;
+margin-bottom: 10px;
+font-size: 30px;
+}
+
+.price h3{
+  float: right;
+  padding-top: -10px;
+}
+/* 表 */
+.price table {
+  background-color: #ffffdd;
+  border-collapse: collapse;/* 表の隙間（すきま） */
+  width: 50%;
+  font-size: 15px;
+}
+
+/* 表のセル */
+.price td {
+  border: 1px solid #000000;
+  padding: 10px;
+font-size: 15px;
+  color:  #DB9501;
+ background-color: #2A3132;
+  
+}
+
+
+/* 表の見出しセル */
+.price th {
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: #ad1111;
+  text-align: left;
+  font-size: 15px;
+  color:  #DB9501;
+  
+}
+
+
+/* 表の見出しセル（季節） */
+.seaso{
+  background-color: #2A3132;
+  }
+
+
+
+/* ===== アクセス情報のスタイル ===== */
+/* セクション */
+.access {
+  padding: 30px;
+  background-color: #46211A;
+  height:400px;
+  color: #DB9501;
+  
+}
+
+.access h2{
+  background-color: #ad1111;
+border-radius: 30px;
+padding: 10px;
+border-left-style: none;
+margin-bottom: 10px;
+font-size: 40px;
+  
+}
+/* h3見出し */
+.access h3 {
+  font-size: 50px;
+  font-family: lobster;
+  margin-top: 0px;
+  color: #DB9501;
+background-color: #2A3132;
+border-radius: 15px;
+  padding-left: 10px;
+}
+
+/* リスト */
+.access ul {
+  
+  padding-left: 10px;
+  color: #DB9501;
+  background-color: #2A3132;
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+/* 箱 */
+.access div {
+  float: left;
+  width: 50%;
+  background-color: #2A3132;
+padding-bottom: 15px;
+border-right-radius: 15px;
+}
+
+
+/* フッター */
+footer {
+  text-align: center;
+  background-color: #46211A;
+  color:  #DB9501;
+}
